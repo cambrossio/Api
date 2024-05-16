@@ -1,0 +1,23 @@
+<mat-spinner *ngIf="isLoading" [diameter]="50">
+    
+</mat-spinner>
+
+<div *ngIf="!isLoading && !isError">
+    <h1>{{producto.name}}</h1>
+    <p>Creado: {{producto.created}}</p>
+    <p>Genero: {{producto.gender}}</p>
+    <p>Especie: {{producto.species}} </p>
+    <p>Origen: {{producto.origin.name}}</p>
+    
+        <ngb-alert *ngIf="isLive" type="success" [dismissible]="false">
+          <strong>Estado: {{producto.status}}</strong>
+        </ngb-alert>
+        <ngb-alert *ngIf="!isLive" type="danger" [dismissible]="false">
+            <strong>Estado: {{producto.status}}</strong>
+        </ngb-alert>
+      
+    <img src={{producto.image}} > 
+</div>
+
+
+

@@ -1,0 +1,21 @@
+p{
+	width:auto;
+	padding:8px 14px;
+	border:1px solid #f6f6f6;
+	border-radius:5px;
+	background-color:#f2f3d2;
+}
+
+h1{
+    width:300px;
+	padding:16px;
+	border-radius:10px;
+	background-color:#ccc;
+	text-align:center;
+	margin:32px;
+}
+
+img{
+    margin:auto;
+    display:block;
+}

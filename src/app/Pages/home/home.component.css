@@ -1,0 +1,42 @@
+img{
+    max-width: 100px;
+}
+
+
+p{
+	width:150px;
+	padding:8px 14px;
+	border:1px solid #f6f6f6;
+	border-radius:5px;
+	background-color:#eff19d;
+	margin:auto;
+	margin-top:15px;
+	margin-block-end: 15px;
+	text-align:center;
+	display:block;
+}
+
+.mat-card-title{
+
+    width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border-radius:5px;
+	display:block;
+	text-align:center;
+}
+
+h1{
+    width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+	background-color:#ccc;
+	text-align:center;
+	
+}
+
+.content{
+	min-height: 800px;
+}
+
